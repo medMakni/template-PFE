@@ -26,6 +26,8 @@
     <link href="../css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
     <link href="../css/animate.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/plugins/dropzone/basic.css" rel="stylesheet">
+    <link href="../css/plugins/dropzone/dropzone.css" rel="stylesheet">
 
 </head>
 
@@ -546,6 +548,12 @@
                                                 <br/>
 
                                             </div>
+                                            <div>
+                                                <form id="my-awesome-dropzone" class="dropzone" action="#">
+                                                    <div class="dropzone-previews"></div>
+                                                </form>
+
+                                            </div>
                                             <div class="clearfix"></div>
                                         </div>
                                         <div class="mail-body text-right tooltip-demo">
@@ -557,6 +565,7 @@
                                     </div>
 
                                 </div>
+
                             </div>
                         </form>
                     </div>
@@ -564,6 +573,10 @@
 
 
             </div>
+
+
+
+
 
 
 
@@ -695,7 +708,8 @@
 <!-- SUMMERNOTE -->
 <script src="../js/plugins/summernote/summernote.min.js"></script>
 <script src="js/plugins/footable/footable.all.min.js"></script>
-
+<!-- DROPZONE -->
+<script src="../js/plugins/dropzone/dropzone.js"></script>
 <script>
     $(document).ready(function(){
         $('.i-checks').iCheck({
@@ -740,6 +754,37 @@
 
     });
 
+</script>
+<script>
+    $(document).ready(function(){
+
+        Dropzone.options.myAwesomeDropzone = {
+
+            autoProcessQueue: false,
+            uploadMultiple: true,
+            parallelUploads: 100,
+            maxFiles: 100,
+
+            // Dropzone settings
+            init: function() {
+                var myDropzone = this;
+
+                this.element.querySelector("button[type=submit]").addEventListener("click", function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    myDropzone.processQueue();
+                });
+                this.on("sendingmultiple", function() {
+                });
+                this.on("successmultiple", function(files, response) {
+                });
+                this.on("errormultiple", function(files, response) {
+                });
+            }
+
+        }
+
+    });
 </script>
 
 </body>
