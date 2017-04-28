@@ -20,7 +20,6 @@
     <link href="../css/animate.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 	
-	    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="../css/plugins/iCheck/custom.css" rel="stylesheet">
     <link href="../css/plugins/summernote/summernote.css" rel="stylesheet">
@@ -444,19 +443,28 @@
 						
 						
 						<br>
-
-						<div class="form-group">
-						<label class="col-sm-2 control-label">DateCourrier:</label>
-
-						<div class="input-group date">
+                
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <label class="control-label" for="date_added">Date Courrier</label>
+                            <div class="input-group date">
                                 <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_added" type="text" class="form-control" value="03/04/2014">
                             </div>
-						<label class="col-sm-2 control-label">DateArrivée:</label>
-
-						<div class="input-group date">
-                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_added" type="text" class="form-control" value="03/04/2014">
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <label class="control-label" for="date_modified">Date Arrivée</label>
+                            <div class="input-group date">
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_modified" type="text" class="form-control" value="03/06/2014">
                             </div>
-						</div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
 						<p><span class="label label-info">Origine</span></p>
 						<br>
                         <div class="form-group">
@@ -684,6 +692,8 @@
     <script src="../js/plugins/datapicker/bootstrap-datepicker.js"></script>
     <!-- SUMMERNOTE -->
     <script src="../js/plugins/summernote/summernote.min.js"></script>
+	    <script src="js/plugins/footable/footable.all.min.js"></script>
+
     <script>
         $(document).ready(function(){
             $('.i-checks').iCheck({
@@ -701,13 +711,14 @@
         var save = function() {
             var aHTML = $('.click2edit').code(); //save HTML If you need(aHTML: array).
             $('.click2edit').destroy();
-        };
+        
+};
 
     </script>
 	   <script>
         $(document).ready(function() {
 
-            $('.footable').footable();
+            
 
             $('#date_added').datepicker({
                 todayBtn: "linked",
