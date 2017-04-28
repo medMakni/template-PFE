@@ -19,7 +19,7 @@
 
     <link href="../css/animate.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
-	
+
     <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="../css/plugins/iCheck/custom.css" rel="stylesheet">
     <link href="../css/plugins/summernote/summernote.css" rel="stylesheet">
@@ -378,6 +378,7 @@
                     </a>
                 </li>
             </ul>
+        </nav>
 			<div class="col-lg-12">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
@@ -413,22 +414,22 @@
 
 							<label class="col-sm-2 control-label">Nature:</label>
 
-								<div class="col-sm-5">  
+								<div class="col-sm-5">
 									<div class="btn-group" data-toggle="buttons">
 									  <label class="btn btn-primary active">
-										<input type="radio" name="options" id="option1" autocomplete="off" checked> Lettre
+										<input type="radio" name="options" id="lettre" autocomplete="off" checked> Lettre
 									  </label>
 									  <label class="btn btn-primary">
-										<input type="radio" name="options" id="option2" autocomplete="off"> Mail
+										<input type="radio" name="options" id="mail" autocomplete="off"> Mail
 									  </label>
 									  <label class="btn btn-primary">
-										<input type="radio" name="options" id="option3" autocomplete="off"> Fax
+										<input type="radio" name="options" id="fax" autocomplete="off"> Fax
 									  </label>
 									</div>
 								</div>
 
 
-						<label class="col-sm-2 control-label">Catégorie:</label>
+						<label class="col-sm-1 control-label">Catégorie:</label>
 
 							<div class="btn-group">
 								<button data-toggle="dropdown" class="btn btn-default dropdown-toggle">Courrier Normal<span class="caret"></span></button>
@@ -436,33 +437,33 @@
 										<li><a href="#" class="font-bold">Courrier Normal</a></li>
 										<li><a href="#" class="font-bold">Courrier à la clientèle</a></li>
 										<li><a href="#" class="font-bold">Autre</a></li>
-										
+
 									</ul>
 							</div>
                         </div>
-						
-						
+
+
 						<br>
-                
-                <div class="row">
-                    <div class="col-sm-5">
-                        <div class="form-group">
-                            <label class="control-label" for="date_added">Date Courrier</label>
-                            <div class="input-group date">
-                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_added" type="text" class="form-control" value="03/04/2014">
+
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-5" for="date_added">Date Courrier</label>
+                                    <div class="input-group date">
+                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_added" type="text" class="form-control" value="03/04/2014">
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-5">
-                        <div class="form-group">
-                            <label class="control-label" for="date_modified">Date Arrivée</label>
-                            <div class="input-group date">
-                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_modified" type="text" class="form-control" value="03/06/2014">
+                            <div class="col-sm-5">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-7" for="date_modified">Date Arrivée</label>
+                                    <div class="input-group date">
+                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input id="date_modified" type="text" class="form-control" value="03/06/2014">
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
-                    </div>
-                    
-                </div>
 
 
 						<p><span class="label label-info">Origine</span></p>
@@ -476,8 +477,9 @@
 										<li><a href="#" class="font-bold">Courrier Normal</a></li>
 										<li><a href="#" class="font-bold">Courrier à la clientèle</a></li>
 										<li><a href="#" class="font-bold">Autre</a></li>
-										
+
 									</ul>
+						</div>
 						</div>
 						<br>
                         <div class="form-group">
@@ -489,16 +491,16 @@
 										<li><a href="#" class="font-bold">Courrier Normal</a></li>
 										<li><a href="#" class="font-bold">Courrier à la clientèle</a></li>
 										<li><a href="#" class="font-bold">Autre</a></li>
-										
+
 									</ul>
 							</div>
 
-						
+
                         </div>
-						
-						
-						
-						
+
+
+
+
 						<div class="form-group"><label class="col-sm-2 control-label">E-mail:</label>
 
                             <div class="col-sm-10"><input type="text" class="form-control" value=""></div>
@@ -513,59 +515,59 @@
                         </div>
 						<br>
 						<p><span class="label label-info">Corps</span></p>
-			<div class="col-lg-9 animated fadeInRight">
-            
-                <div class="mail-box">
+                         <div class="col-lg-9 animated fadeInRight">
+
+                            <div class="mail-box">
 
 
-                <div class="mail-body">
+                                <div class="mail-body">
 
-                    <form class="form-horizontal" method="get">
-                        <div class="form-group"><label class="col-sm-2 control-label">To:</label>
+                                    <form class="form-horizontal" method="get">
+                                        <div class="form-group"><label class="col-sm-2 control-label">To:</label>
 
-                            <div class="col-sm-10"><input type="text" class="form-control" value="alex.smith@corporat.com"></div>
-                        </div>
-                        <div class="form-group"><label class="col-sm-2 control-label">Subject:</label>
+                                            <div class="col-sm-10"><input type="text" class="form-control" value="alex.smith@corporat.com"></div>
+                                        </div>
+                                        <div class="form-group"><label class="col-sm-2 control-label">Subject:</label>
 
-                            <div class="col-sm-10"><input type="text" class="form-control" value=""></div>
-                        </div>
-                        </form>
+                                            <div class="col-sm-10"><input type="text" class="form-control" value=""></div>
+                                        </div>
+                                        </form>
 
-                
 
-                    <div class="mail-text h-200">
 
-                        <div class="summernote">
-                            <h3>Hello Jonathan! </h3>
-                            dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's</strong> standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-                            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                            <br/>
-                            <br/>
+                                    <div class="mail-text h-200">
 
-                        </div>
-<div class="clearfix"></div>
-                        </div>
-                    <div class="mail-body text-right tooltip-demo">
-                        <a href="mailbox.html" class="btn btn-sm btn-primary" data-toggle="tooltip" data-placement="top" title="Send"><i class="fa fa-reply"></i> Send</a>
-                        <a href="mailbox.html" class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="Discard email"><i class="fa fa-times"></i> Discard</a>
-                        <a href="mailbox.html" class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="Move to draft folder"><i class="fa fa-pencil"></i> Draft</a>
-                    </div>
-                    <div class="clearfix"></div>
+                                        <div class="summernote">
+                                            <h3>Hello Jonathan! </h3>
+                                            dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's</strong> standard dummy text ever since the 1500s,
+                                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                                            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                            <br/>
+                                            <br/>
 
-</div>
+                                        </div>
+                                    <div class="clearfix"></div>
+                                        </div>
+                                    <div class="mail-body text-right tooltip-demo">
+                                        <a href="mailbox.html" class="btn btn-sm btn-primary" data-toggle="tooltip" data-placement="top" title="Send"><i class="fa fa-reply"></i> Send</a>
+                                        <a href="mailbox.html" class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="Discard email"><i class="fa fa-times"></i> Discard</a>
+                                        <a href="mailbox.html" class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="Move to draft folder"><i class="fa fa-pencil"></i> Draft</a>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
 
-                </div>
-            </div>
+                            </div>
+                         </div>
+                       </form>
+                      </div>
+                 </div>
+
+
         </div>
-        </div>
-        
-
-        </div>
-        </div>
 
 
-                        </form>
+
+
 
            <div class="col-lg-12">
                 <div class="ibox float-e-margins">
@@ -593,8 +595,8 @@
                        <form class="form-horizontal" method="get">
 						<p><span class="label label-info">Intervenants</span></p>
                         <div class="form-group">
-							<label class="col-sm-2 control-label">Responsable:</label>	
-								<div class="col-sm-10">  
+							<label class="col-sm-2 control-label">Responsable:</label>
+								<div class="col-sm-10">
 									<div data-toggle="buttons-checkbox" class="btn-group" >
 										<button class="btn btn-primary btn-outline" type="button"> Lettre</button>
 										<button class="btn btn-primary btn-outline" type="button"> Mail</button>
@@ -607,8 +609,8 @@
 
 							<label class="col-sm-2 control-label">En copie:</label>
 
-								<div class="col-sm-10">  
-								
+								<div class="col-sm-10">
+
 							<div class="btn-group" data-toggle="buttons">
 							  <label class="btn btn-primary active">
 								<input type="radio" name="options" id="option1" autocomplete="off" checked> Radio 1 (preselected)
@@ -623,36 +625,36 @@
 								</div>
 
 
-						
+
                         </div>
-						
-						
+
+
 						<p><span class="label label-info">Workflow</span></p>
                         <div class="form-group">
-							<label class="col-sm-2 control-label">Commantaire:</label>	
+							<label class="col-sm-2 control-label">Commantaire:</label>
 								<div class="col-sm-10"><input type="text" class="form-control" value=""></div>
 						</div>
-						
+
 						<button class="btn btn-primary " type="button"><i class="fa fa-check"></i>&nbsp;Submit</button>
                         <button class="btn btn-warning " type="button"><i class="fa fa-warning"></i> <span class="bold">annuler</span></button>
 
 						</form>
 
 					</div>
-					
-        </div>
-        
 
-        </div>
         </div>
 
 
-                        
-             
+        </div>
+        </div>
+
+
+
+
 
                     </div>
                 </div>
-			</div>	
+
 
 
 
@@ -711,14 +713,14 @@
         var save = function() {
             var aHTML = $('.click2edit').code(); //save HTML If you need(aHTML: array).
             $('.click2edit').destroy();
-        
+
 };
 
     </script>
 	   <script>
         $(document).ready(function() {
 
-            
+
 
             $('#date_added').datepicker({
                 todayBtn: "linked",
