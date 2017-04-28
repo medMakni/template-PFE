@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e6f017-c50a-45e8-a716-e5c2594a8800" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pfe/CreationCourrier.html" afterPath="$PROJECT_DIR$/pfe/CreationCourrier.html" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pfe/CourriersArrivées.html" afterPath="$PROJECT_DIR$/pfe/CourriersArrivées.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pfe/CourriersDéparts.html" afterPath="$PROJECT_DIR$/pfe/CourriersDéparts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pfe/CourriersInternes.html" afterPath="$PROJECT_DIR$/pfe/CourriersInternes.html" />
+>>>>>>> 1972bc4bcad0c9a48ebcb53a33246fee96231374
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,12 +20,56 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+=======
+    <leaf>
+>>>>>>> 1972bc4bcad0c9a48ebcb53a33246fee96231374
       <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pfe/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="539">
+              <caret line="500" column="18" lean-forward="false" selection-start-line="500" selection-start-column="18" selection-end-line="500" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourriersArrivées.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pfe/CourriersArrivées.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="446" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="816" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourriersDéparts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pfe/CourriersDéparts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="816" column="0" lean-forward="true" selection-start-line="816" selection-start-column="0" selection-end-line="816" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourriersInternes.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pfe/CourriersInternes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="773" column="41" lean-forward="true" selection-start-line="773" selection-start-column="41" selection-end-line="773" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ecommerce-orders.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce-orders.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="1448" column="15" lean-forward="true" selection-start-line="1448" selection-start-column="15" selection-end-line="1448" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -40,12 +91,19 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>body</find>
       <find>fa-task</find>
       <find>ibox float-e-margins</find>
       <find>ibox</find>
       <find>mail</find>
       <find>ibox-content</find>
+=======
+      <find>sear</find>
+      <find>rend</find>
+      <find>date</find>
+      <find>A par</find>
+>>>>>>> 1972bc4bcad0c9a48ebcb53a33246fee96231374
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,7 +112,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pfe/CreationCourrier.html" />
+=======
+        <option value="$PROJECT_DIR$/pfe/dashboard.html" />
+        <option value="$PROJECT_DIR$/pfe/CourriersArrivées.html" />
+        <option value="$PROJECT_DIR$/pfe/CourriersDéparts.html" />
+        <option value="$PROJECT_DIR$/pfe/CourriersInternes.html" />
+>>>>>>> 1972bc4bcad0c9a48ebcb53a33246fee96231374
       </list>
     </option>
   </component>
@@ -150,13 +215,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493374037010</updated>
+<<<<<<< HEAD
       <workItem from="1493374040089" duration="124000" />
       <workItem from="1493374800669" duration="3685000" />
+=======
+      <workItem from="1493374040089" duration="3528000" />
     </task>
+    <task id="LOCAL-00001" summary="adding wassim is date pickers">
+      <created>1493378351176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1493378351176</updated>
+>>>>>>> 1972bc4bcad0c9a48ebcb53a33246fee96231374
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="3809000" />
+=======
+    <option name="totallyTimeSpent" value="3528000" />
+>>>>>>> 1972bc4bcad0c9a48ebcb53a33246fee96231374
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -187,6 +268,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding wassim is date pickers" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding wassim is date pickers" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -194,8 +279,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pfe/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="539">
+          <caret line="500" column="18" lean-forward="false" selection-start-line="500" selection-start-column="18" selection-end-line="500" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce-orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="1448" column="15" lean-forward="true" selection-start-line="1448" selection-start-column="15" selection-end-line="1448" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfe/CourriersArrivées.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="446" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="816" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfe/CourriersDéparts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="816" column="0" lean-forward="true" selection-start-line="816" selection-start-column="0" selection-end-line="816" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pfe/CourriersInternes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="773" column="41" lean-forward="true" selection-start-line="773" selection-start-column="41" selection-end-line="773" selection-end-column="41" />
           <folding />
         </state>
       </provider>
