@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87e6f017-c50a-45e8-a716-e5c2594a8800" name="Default" comment="">
+    <list default="true" id="87e6f017-c50a-45e8-a716-e5c2594a8800" name="Default" comment="changing the courrier arrivés,courriers départ,courriers internes">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pfe/CourriersArrivées.html" afterPath="$PROJECT_DIR$/pfe/CourriersArrivées.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pfe/CourriersDéparts.html" afterPath="$PROJECT_DIR$/pfe/CourriersDéparts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pfe/CourriersInternes.html" afterPath="$PROJECT_DIR$/pfe/CourriersInternes.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -181,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493374037010</updated>
-      <workItem from="1493374040089" duration="3528000" />
+      <workItem from="1493374040089" duration="4523000" />
     </task>
     <task id="LOCAL-00001" summary="adding wassim is date pickers">
       <created>1493378351176</created>
@@ -190,11 +187,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493378351176</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changing the courrier arrivés,courriers départ,courriers internes">
+      <created>1493378964317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1493378964317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3528000" />
+    <option name="totallyTimeSpent" value="4523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1000" extended-state="0" />
@@ -227,7 +231,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding wassim is date pickers" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding wassim is date pickers" />
+    <MESSAGE value="changing the courrier arrivés,courriers départ,courriers internes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing the courrier arrivés,courriers départ,courriers internes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
